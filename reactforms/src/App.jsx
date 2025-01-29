@@ -1,8 +1,12 @@
+import Authenticate from "./components/Authenticate/Authenticate";
+import SignupForm from "./components/SIgnupForm/SignupForm";
+
 function App() {
 
   return (
     <>
-     App
+    <SignupForm />
+     <Authenticate />
     </>
   )
 }
